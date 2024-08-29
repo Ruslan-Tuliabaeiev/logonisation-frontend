@@ -1,0 +1,77 @@
+
+
+.blog-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-style: none;
+  border-radius: 12px;
+  border-bottom: 1px solid #ecf3fa;
+  box-shadow: 0px 9px 20px rgba(46, 35, 94, 0.101);
+  transition: transform 0.5s ease-in-out;
+}
+@media screen and (max-width: 575px) {
+  .login-main {
+    width: min(250px, 100%); /* Минимум 300px, максимум 500px, иначе 100% ширины родительского элемента */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 37px rgba(8, 21, 66, 0.05);
+    margin: 0 auto;
+    background-color: #fff;
+  }
+}
+.blog-form:hover,
+.blog-form:focus {
+  box-shadow: 0px 9px 20px rgba(46, 35, 94, 0.029);
+  cursor: pointer;
+}
+
+.blog-form-title {
+  font-size: 18px;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.blog-control {
+  display: block;
+  width: 95%;
+  margin-top: 3px;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f3f3ff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.blog-button {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(115, 102, 255);
+  transition: transform 0.5s ease-in-out;
+}
+.blog-button:hover,
+.blog-button:focus {
+  background-color: rgba(100, 89, 224, 0.7);
+  cursor: pointer;
+}
+
+/*======editor-form style=========*/
+/*.editor-form {*/
+/*  height: 400px;*/
+/*  */
+/*}*/
+
